@@ -2,24 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: `vincent [dot] liu15 [at] gmail [dot] com`
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  more_info: ""
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently a Staff Research Engineer at [Common Sense Machines](https://www.csm.ai/) and a visiting researcher at NYU CILVR in [Lerrel Pinto](https://www.lerrelpinto.com/)'s group. My work focuses on foundation models that simulate the 3D world and generalist dexterous robot policies that interact with the 3D world.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my BS in Mathematics and MS in Computer Science from Stanford University. As an undergraduate, I interned at [Tesla Autopilot](https://www.tesla.com/autopilot) on Full Self-Driving where I reported to [Andrej Karpathy](https://karpathy.ai/) and at [NVIDIA](https://www.nvidia.com/en-us/) on the Applied AI team. I wrote my Master's thesis on adversarial methods for end-to-end text-to-speech, which I lectured on for graduate-level class [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu/). I've also been fortunate enough to work with professors [Tatsu Hashimoto](https://thashim.github.io/), [Noah Goodman](https://cocolab.stanford.edu/ndg), and [Andrew Ng](https://www.andrewng.org/) in their respective research groups.
