@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: `vincent [dot] liu15 [at] gmail [dot] com`
+subtitle: vincent [dot] liu15 [at] gmail [dot] com
 
 profile:
   align: left
