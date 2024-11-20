@@ -193,6 +193,13 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+  courseworks:
+    defaults:
+      layout: post
     output: true
     permalink: /:collection/:title/
 
