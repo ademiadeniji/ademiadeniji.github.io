@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released our new Implicit Shape Foundation Model! Try it out at [3d.csm.ai](3d.csm.ai) 🎨
+We released our new Implicit Shape Foundation Model! Try it out at [3d.csm.ai](https://3d.csm.ai) 🎨

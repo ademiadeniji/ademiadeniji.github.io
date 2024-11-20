@@ -3,13 +3,12 @@ layout: post
 title: NVIDIA Neural Modules
 description: September 2020
 img:
-redirect: https://github.com/NVIDIA/NeMo
 importance: 4
 category: work
 giscus_comments: false
 ---
 
-I trained and contributed lightweight speech vocoders to NVIDIA's Neural Modules (NeMo) project, an open-source conversational AI toolkit for developers that has now expanded more broadly to conversational generative AI.
+I trained and contributed lightweight speech vocoders to NVIDIA's [Neural Modules (NeMo)](https://github.com/NVIDIA/NeMo) project, an open-source conversational AI toolkit for developers that has now expanded more broadly to conversational generative AI.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
