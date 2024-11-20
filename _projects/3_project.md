@@ -2,8 +2,8 @@
 layout: page
 title: Tesla's Full Self-Driving
 description: September 2021
-img: 
-redirect: 
+img:
+redirect:
 importance: 3
 category: work
 giscus_comments: false

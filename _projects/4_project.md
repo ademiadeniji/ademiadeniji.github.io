@@ -2,7 +2,7 @@
 layout: page
 title: NVIDIA's Neural Modules
 description: August 2020
-img: 
+img:
 redirect: https://github.com/NVIDIA/NeMo
 importance: 4
 category: work
