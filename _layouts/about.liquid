@@ -59,15 +59,6 @@ layout: default
       <br>
     {% endif %}
 
-    <!-- selected coursework -->
-    {% if page.courseworks %}
-      <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">coursework</a>
-      </h2>
-      {% include courseworks.liquid %}
-      <br>
-    {% endif %}
-
     <!-- selected projects -->
     {% if page.projects %}
       <h2>
@@ -83,6 +74,15 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
       </h2>
       {% include papers.liquid %}
+      <br>
+    {% endif %}
+
+    <!-- selected coursework -->
+    {% if page.courseworks %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">coursework</a>
+      </h2>
+      {% include courseworks.liquid %}
       <br>
     {% endif %}
 
