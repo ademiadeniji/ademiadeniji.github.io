@@ -5,7 +5,7 @@ description: March 2024
 date: "2024-03-21"
 img:
 redirect: https://www.csm.ai/blog/image-to-3d-in-seconds-is-now-better-than-ever
-importance: 3
+importance: 1
 category: work
 giscus_comments: false
 ---
