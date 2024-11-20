@@ -676,8 +676,8 @@ footer.sticky-bottom {
   * {
     box-sizing: border-box;
     overflow-wrap: break-word; /* Ensures long words or URLs wrap */
-    word-wrap: break-word;    /* Fallback for older browsers */
-    word-break: break-word;   /* Ensures compatibility across browsers */
+    word-wrap: break-word; /* Fallback for older browsers */
+    word-break: break-word; /* Ensures compatibility across browsers */
   }
 
   /* Optional: prevent horizontal scrolling */
