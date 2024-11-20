@@ -628,6 +628,11 @@ footer.sticky-bottom {
     // }
   }
 
+  a:hover {
+    background-color: transparent;
+    cursor: default;
+  }
+
   .card {
     img {
       width: 100%;
@@ -655,10 +660,16 @@ footer.sticky-bottom {
   img {
     max-width: 100%;
     height: auto;
+    display: block;
   }
   .table-responsive {
     max-height: 70vh;
     overflow-y: auto;
+  }
+  td {
+    white-space: normal;
+    word-wrap: break-word; /* For older browsers */
+    word-break: break-word; /* For modern browsers */
   }
 }
 
