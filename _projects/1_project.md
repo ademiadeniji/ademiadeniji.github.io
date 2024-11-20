@@ -3,6 +3,7 @@ layout: page
 title: CSM's Neural Radiance Field Foundation Model
 description: February 2024
 img: 
+redirect: https://www.csm.ai/blog/image-to-3d-in-seconds-is-now-better-than-ever
 importance: 1
 category: work
 giscus_comments: false
