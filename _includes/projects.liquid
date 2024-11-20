@@ -1,6 +1,5 @@
 <div class="projects">
   {% if site.projects != blank %}
-    {% assign projects_size = site.projects | size %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         {% assign projects = site.projects %}
@@ -9,7 +8,15 @@
             <th scope="row" style="width: 20%">{{ project.date | date: '%b %d, %Y' }}</th>
             <td>
               <strong>{{ project.title }}</strong><br>
-              {{ project.description }}
+              {{ project.description -}}
+              <br>
+              <br>
+
+              <!-- Render the full content of the project -->
+              <div>
+                {{ project.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
+              </div>
+
               {% if project.github %}
                 <div>
                   <a href="{{ project.github }}" class="btn btn-sm btn-outline-secondary"> View Code on GitHub </a>

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: NVIDIA Neural Modules
-description: September 2020
-date: "2020-09-04"
+title: CSM Implicit Shape Foundation Model
+description: October 2024
+date: "2024-10-31"
 img:
-redirect: https://github.com/NVIDIA/NeMo
+redirect: https://x.com/CSM_ai/status/1852131242075910503
 importance: 4
 category: work
 giscus_comments: false
 ---
 
-I trained and contributed lightweight speech vocoders to NVIDIA's Neural Modules (NeMo) project, an open-source conversational AI toolkit for developers that has now expanded more broadly to conversational generative AI.
+I helped train and scale CSM's Implicit Shape Foundation Model, a 3D-native latent diffusion model that produces 3D occupancy fields conditioned a single image input, and build the data filtering and active learning loops to support its pre-training and post-training.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

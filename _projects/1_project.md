@@ -1,16 +1,16 @@
 ---
 layout: post
-title: CSM Neural Radiance Field Foundation Model
-description: March 2024
-date: "2024-03-21"
+title: Tesla Full Self-Driving
+description: September 2021
+date: "2021-09-14"
 img:
-redirect: https://www.csm.ai/blog/image-to-3d-in-seconds-is-now-better-than-ever
+redirect:
 importance: 1
 category: work
 giscus_comments: false
 ---
 
-I helped train and scale CSM's Neural Radiance Field (NeRF) Foundation Model, a 2D-native NeRF model that reconstructs 3D occupancy fields from single image input. This model helped CSM grow to 300k+ users.
+I shipped models to Tesla's Full Self-Driving (FSD) v9.2, v10.1, v10.2, and v10.3 updates. I also contributed the main video teaser for Tesla's first AI Day event.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,8 +35,8 @@ I helped train and scale CSM's Neural Radiance Field (NeRF) Foundation Model, a 
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
