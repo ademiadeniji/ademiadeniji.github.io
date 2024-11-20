@@ -1,25 +1,15 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: End-to-end Speech Synthesis with Generative Adversarial Networks
+description: June 2022
+img: 
+redirect: https://github.com/vliu15/tts-gan
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I developed adversarial methods for training end-to-end text-to-speech models with monotonic alignment search as part of my Master's thesis. I also lectured on these concepts for Stanford's [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu/) Winter 2021 offering.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

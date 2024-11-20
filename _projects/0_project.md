@@ -1,24 +1,14 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: CSM's Implicit Shape Foundation Model
+description: October 2024
+img: 
+importance: 0
+category: work
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I helped train and scale CSM's Implicit Shape Foundation Model, a 3D-native latent diffusion model that produces 3D occupancy fields conditioned a single image input, and build the data filtering and active learning loops to support its pre-training and post-training.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
