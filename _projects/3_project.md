@@ -2,7 +2,7 @@
 layout: post
 title: Tesla Full Self-Driving
 description: September 2021
-date: "2021-09"
+date: "2021-09-14"
 img:
 redirect:
 importance: 3

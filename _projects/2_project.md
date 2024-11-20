@@ -2,7 +2,7 @@
 layout: post
 title: End-to-end Speech Synthesis with Generative Adversarial Networks
 description: June 2022
-date: "2022-06"
+date: "2022-06-10"
 img:
 redirect: https://github.com/vliu15/tts-gan
 importance: 2
