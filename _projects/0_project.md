@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CSM's Implicit Shape Foundation Model
+title: CSM Implicit Shape Foundation Model
 description: October 2024
 img:
 redirect: https://x.com/CSM_ai/status/1852131242075910503

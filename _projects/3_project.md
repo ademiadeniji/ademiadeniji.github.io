@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tesla's Full Self-Driving
+title: Tesla Full Self-Driving
 description: September 2021
 img:
 redirect:

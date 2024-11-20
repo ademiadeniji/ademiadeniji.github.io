@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NVIDIA's Neural Modules
+title: NVIDIA Neural Modules
 description: August 2020
 img:
 redirect: https://github.com/NVIDIA/NeMo
