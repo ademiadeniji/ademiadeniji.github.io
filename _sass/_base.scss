@@ -678,19 +678,11 @@ footer.sticky-bottom {
   }
   td {
     white-space: normal;
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* Ensures long words or URLs wrap */
     word-wrap: break-word; /* For older browsers */
     word-break: break-word; /* For modern browsers */
   }
-
-  * {
-    box-sizing: border-box;
-    overflow-wrap: break-word; /* Ensures long words or URLs wrap */
-    word-wrap: break-word; /* Fallback for older browsers */
-    word-break: break-word; /* Ensures compatibility across browsers */
-  }
-
-  /* Optional: prevent horizontal scrolling */
-  overflow-x: hidden;
 }
 
 .projects table tr {
