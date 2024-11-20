@@ -13,9 +13,6 @@ I trained and shipped models to Tesla Full Self-Driving (FSD) v9.2, v10.1, v10.2
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/spatialrnn.gif" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/gif/aiday.gif" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
