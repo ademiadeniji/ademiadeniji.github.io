@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: CSM Neural Radiance Field Foundation Model
-description: February 2024
+description: March 2024
+date: "2024-03"
 img:
 redirect: https://www.csm.ai/blog/image-to-3d-in-seconds-is-now-better-than-ever
 importance: 1

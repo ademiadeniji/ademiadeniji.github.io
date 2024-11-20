@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: NVIDIA Neural Modules
 description: August 2020
+date: "2020-08"
 img:
 redirect: https://github.com/NVIDIA/NeMo
 importance: 4
