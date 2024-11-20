@@ -628,9 +628,10 @@ footer.sticky-bottom {
     // }
   }
 
-  a:hover {
-    background-color: transparent;
-    cursor: default;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; /* Remove any default margins that may introduce overflow */
   }
 
   .card {
@@ -671,6 +672,26 @@ footer.sticky-bottom {
     word-wrap: break-word; /* For older browsers */
     word-break: break-word; /* For modern browsers */
   }
+
+  * {
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* Ensures long words or URLs wrap */
+    word-wrap: break-word;    /* Fallback for older browsers */
+    word-break: break-word;   /* Ensures compatibility across browsers */
+  }
+
+  /* Optional: prevent horizontal scrolling */
+  overflow-x: hidden;
+}
+
+.projects table tr {
+  /* Ensure there are no hover effects */
+  transition: none; /* Remove any transitions that could occur on hover */
+}
+
+.projects table tr:hover {
+  background-color: transparent !important; /* Ensure no background change on hover */
+  color: inherit !important; /* Ensure text color doesn't change on hover */
 }
 
 // Publications
