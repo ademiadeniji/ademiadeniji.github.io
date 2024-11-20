@@ -1,6 +1,6 @@
 ---
 layout: page
-title: selected projects
+title: projects
 permalink: /projects/
 description: cool neural networks i've contributed to
 nav: true

@@ -1,35 +1,28 @@
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
+<div class="projects">
+  {% if site.projects != blank %}
+    {% assign projects_size = site.projects | size %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% assign projects = site.projects %}
+        {% for project in projects %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ project.date | date: '%b %d, %Y' }}</th>
+            <td>
+              <strong>{{ project.title }}</strong><br>
+              {{ project.description }}
+              {% if project.github %}
+                <div>
+                  <a href="{{ project.github }}" class="btn btn-sm btn-outline-secondary">
+                    View Code on GitHub
+                  </a>
+                </div>
               {% endif %}
-            </div>
-          {% endif %}
-        </div>
-      </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
     </div>
-  </a>
+  {% else %}
+    <p>No projects so far...</p>
+  {% endif %}
 </div>
