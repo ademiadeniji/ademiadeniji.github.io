@@ -8,7 +8,7 @@ category: work
 giscus_comments: false
 ---
 
-I helped train and scale CSM's [Implicit Shape Foundation Model](https://x.com/CSM_ai/status/1852131242075910503), a 3D-native latent diffusion-Transformer model that produces 3D occupancy fields conditioned a single image input in <1 minute, and build the data filtering and active learning loops to support its pre-training and post-training.
+I helped train and scale CSM's [Implicit Shape Foundation Model](https://x.com/CSM_ai/status/1852131242075910503), a 3D-native latent diffusion-Transformer model that produces 3D occupancy fields conditioned a single image input in <1 minute, and developed the data filtering and active learning loops to support its pre-training and post-training.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
