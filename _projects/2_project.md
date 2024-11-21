@@ -8,7 +8,7 @@ category: work
 giscus_comments: false
 ---
 
-I developed adversarial methods for training end-to-end text-to-speech models with monotonic alignment search as part of my Master's thesis. I also lectured on these concepts for Stanford's [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu/) Winter 2021 offering. Here are some samples from [my implementation](https://github.com/vliu15/tts-gan), which is an adaptation of {% cite donahue2021endtoend, NEURIPS2020_5c3b99e8 %}
+I developed adversarial methods for end-to-end text-to-speech models as part of my Master's thesis. I also lectured on these concepts for Stanford's [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu/) Winter 2021 offering. Here are some samples from [my implementation](https://github.com/vliu15/tts-gan), which is an adaptation of {% cite donahue2021endtoend NEURIPS2020_5c3b99e8 %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
