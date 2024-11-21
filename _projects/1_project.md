@@ -13,6 +13,6 @@ I trained and shipped models to the v9.2, v10.1, [v10.2](https://x.com/elonmusk/
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/aiday.gif" title="" class="img-fluid rounded z-depth-1" caption="Birds-eye view and image-space predictions from Tesla FSD vision, presented at AI Day 2021" %}
+        {% include figure.liquid loading="eager" path="assets/gif/aiday.gif" title="" class="img-fluid rounded z-depth-1" caption="Tesla FSD vision, presented at AI Day 2021" %}
     </div>
 </div>
