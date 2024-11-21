@@ -8,7 +8,7 @@
 * {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 300; // default 400?
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -26,6 +26,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-weight: 800;  // default 700?
 }
 
 hr {
