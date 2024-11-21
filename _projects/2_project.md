@@ -9,3 +9,18 @@ giscus_comments: false
 ---
 
 I developed adversarial methods for training end-to-end text-to-speech models with monotonic alignment search as part of my Master's thesis. I also lectured on these concepts for Stanford's [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu/) Winter 2021 offering. I've consolidated the [code](https://github.com/vliu15/tts-gan) used to generate some of these audio samples:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include audio.liquid path="assets/audio/alliteration.wav" controls=true %}
+        <div class="caption">
+            Peter Piper picked a peck of pickled peppers
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include audio.liquid path="assets/audio/pangram.wav" controls=true %}
+        <div class="caption">
+            The quick brown fox jumps over the lazy dog
+        </div>
+    </div>
+</div>
