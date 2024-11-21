@@ -8,4 +8,4 @@ category: work
 giscus_comments: false
 ---
 
-I trained and contributed lightweight speech vocoders to NVIDIA's [Neural Modules (NeMo)](https://github.com/NVIDIA/NeMo) project, an open-source conversational AI toolkit for developers that has now expanded more broadly to conversational generative AI.
+I trained and contributed lightweight speech vocoders to the v1.0.0 release of NVIDIA's [Neural Modules (NeMo)](https://github.com/NVIDIA/NeMo), an open-source conversational AI toolkit for developers that has now expanded more broadly to conversational generative AI.
