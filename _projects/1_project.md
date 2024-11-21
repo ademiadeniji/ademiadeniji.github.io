@@ -16,3 +16,6 @@ I trained and shipped models to the v9.2, v10.1, [v10.2](https://x.com/elonmusk/
         {% include figure.liquid loading="eager" path="assets/gif/aiday.gif" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Birds-eye view of all Tesla FSD vision predictions, presented at AI Day 2021
+</div>
