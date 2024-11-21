@@ -12,9 +12,6 @@ I helped train and scale CSM's [Implicit Shape Foundation Model](https://x.com/C
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/gif/implicit-shape.gif" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/gif/implicit-shape.gif" title="" class="img-fluid rounded z-depth-1" caption="Samples drawn from the Implicit Shape Foundation Model" %}
     </div>
-</div>
-<div class="caption">
-    Samples drawn from the Implicit Shape Foundation Model
 </div>

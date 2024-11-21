@@ -12,15 +12,9 @@ I developed adversarial methods for training end-to-end text-to-speech models wi
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include audio.liquid path="assets/audio/alliteration.wav" controls=true %}
-        <div class="caption">
-            Peter Piper picked a peck of pickled peppers
-        </div>
+        {% include audio.liquid path="assets/audio/alliteration.wav" controls=true caption="Peter Piper picked a peck of pickled peppers" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include audio.liquid path="assets/audio/pangram.wav" controls=true %}
-        <div class="caption">
-            The quick brown fox jumps over the lazy dog
-        </div>
+        {% include audio.liquid path="assets/audio/pangram.wav" controls=true caption="The quick brown fox jumps over the lazy dog" %}
     </div>
 </div>
