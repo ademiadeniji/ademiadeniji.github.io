@@ -202,10 +202,10 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 50%;
+  width: 100%;
 
   .more-info {
-    padding: 10px;
+    padding: 5px;
     font-family: monospace;
 
     p {
@@ -225,13 +225,22 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
+    padding-right: 5%;
 
     .address {
       p {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .profile {
+    width: 25%; /* Reduced width for smaller screens */
+    padding-left: 37.5%;
+    padding-right: 37.5%;
   }
 }
 
