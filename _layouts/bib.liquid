@@ -148,16 +148,14 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
-    <div class="font-italic">
-      {% if entry.type == 'article' %}
-        {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
-      {% elsif proceedings contains entry.type %}
-        {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
-      {% elsif thesis contains entry.type %}
-        {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
-      {% else %}
-        {% capture entrytype %}{% endcapture %}
-    </div>
+    {% if entry.type == 'article' %}
+      {% capture entrytype %}<em class="font-italic">{{ entry.journal }}</em>{% endcapture %}
+    {% elsif proceedings contains entry.type %}
+      {% capture entrytype %}<em class="font-italic">In {{ entry.booktitle }}</em>{% endcapture %}
+    {% elsif thesis contains entry.type %}
+      {% capture entrytype %}<em class="font-italic">{{ entry.school }}</em>{% endcapture %}
+    {% else %}
+      {% capture entrytype %}{% endcapture %}
     {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
