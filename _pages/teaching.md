@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /courseworks/
-title: coursework
+title: teaching
 description: some of my academic material
 nav: true
 nav_order: 3

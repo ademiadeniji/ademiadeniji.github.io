@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2024-10-31"
+date: "2025-05-06"
 inline: true
 related_posts: false
 ---
 
-We released our new Implicit Shape Foundation Model! Try it out at [3d.csm.ai](https://3d.csm.ai) 🎨
+We submitted our first zero-shot human-to-robot learning work to CoRL! Preprint coming soon 📝
