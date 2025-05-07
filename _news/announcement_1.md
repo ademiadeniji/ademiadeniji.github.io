@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We submitted our first zero-shot human-to-robot learning work to CoRL! Preprint coming soon 📝
+We submitted our zero-shot human-to-robot learning work to CoRL! Preprint soon 📝
