@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: cool neural networks i've contributed to
+description: my current work
 nav: true
 nav_order: 1
 display_categories: [work, fun]
@@ -11,6 +11,7 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <div class="projects">
+{% comment %}
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
@@ -60,4 +61,5 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+{% endcomment %}
 </div>

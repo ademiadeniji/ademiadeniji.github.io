@@ -2,9 +2,11 @@
 layout: page
 permalink: /courseworks/
 title: teaching
-description: some of my academic material
+description: my other experience
 nav: true
 nav_order: 3
 ---
 
+{% comment %}
 {% include courseworks.liquid %}
+{% endcomment %}
