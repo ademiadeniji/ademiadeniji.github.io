@@ -182,7 +182,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% if entrytype_text != "" %}
+    {% if entrytype_text != '' %}
       {% capture periodical %}{{ entrytype }}{% endcapture %}
     {% elsif entry.year %}
       {% capture periodical %}{{ entrymonth }}{{ entryyear }}{% endcapture %}

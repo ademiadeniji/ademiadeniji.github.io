@@ -16,7 +16,7 @@ papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Computer Science PhD student at [UC Berkeley](https://www.berkeley.edu/), advised by [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/). My goal is to develop a generally intelligent agent capable of autonomous learning in the real world. I believe scaling the human physical data footprint is on the critical path to resolving [Moravec's Paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox). 
+I am a Computer Science PhD student at [UC Berkeley](https://www.berkeley.edu/), advised by [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/). My goal is to develop a generally intelligent agent capable of autonomous learning in the real world. I believe scaling the human physical data footprint is on the critical path to resolving [Moravec's Paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox).
 
 Currently, I'm developing zero-shot human-to-robot learning capabilities with Professor [Lerrel Pinto](https://www.lerrelpinto.com/)'s group at NYU as a visiting scholar. Follow me [on X](https://x.com/AdemiAdeniji) for updates on my work.
 
