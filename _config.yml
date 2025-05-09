@@ -281,7 +281,6 @@ plugins:
   - classifier-reborn
   - unicode_utils
   - webrick
-  - faraday-retry
 
 # Sitemap settings
 defaults:
