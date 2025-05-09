@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2025-05-06"
+date: "2024-05-23"
 inline: true
 related_posts: false
 ---
 
-We submitted our zero-shot human-to-robot learning work to CoRL! Preprint soon 📝
+I passed my qualifying exam! Thank you to my committee members Pieter Abbeel, Sergey Levine, Jim Fan, and Ken Goldberg.

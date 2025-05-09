@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CS 236G: Generative Adversarial Networks"
-description: March 2021
+title: "Reinforcement Learning Behavior Generalists - Top-Down and Bottom-Up"
+description: October 2024
 img:
 importance: 0
 ---
 
-I helped create and teach [CS 236G: Generative Adversarial Networks](https://cs236g.stanford.edu), which also became a [Coursera course](https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization/). I designed advanced material based on papers such as [Pix2PixHD](https://colab.research.google.com/drive/11E-YhRUAMMdzjN70ee9N08q6eRAX338r?usp=sharing), [GauGAN](https://github.com/vliu15/gaugan), [SRGAN](https://github.com/vliu15/srgan), [BigGAN](https://github.com/vliu15/biggan), and [MUNIT](https://github.com/vliu15/munit). I created and led workshops ([1](https://colab.research.google.com/drive/1YkPs4N886UIeIKULWUidmRlqg67OddNd?usp=sharing), [2](https://colab.research.google.com/drive/1_V9KhDwM0x9cNzMarF7Yd6IJoUHhIkPo?usp=sharing)) covering topics such as mode collapse, spectral normalization, orthogonal initialization, mixed precision, distributed training, Pytorch best practices, and also gave a guest lecture on adversarial methods in speech synthesis.
+I gave an invited talk at [Belgium-Netherlands Reinforcement Learning Research](https://www.benerl.org/seminar-series/schedule). I talk about how reinforcement learning can learn behavior generalists from two opposing perspectives. Here are the [slides](https://docs.google.com/presentation/d/1eA7nohWwbFiwPIc7AfeyRfEBXtDo5snvQCt35RauDQg/edit?usp=sharing).

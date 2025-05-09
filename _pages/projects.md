@@ -2,8 +2,8 @@
 layout: page
 title: research
 permalink: /projects/
-description: my current work
-nav: true
+description: my current research agenda
+nav: false
 nav_order: 1
 display_categories: [work, fun]
 horizontal: false
