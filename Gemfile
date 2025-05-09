@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 ruby '3.2.8'
 
+gem 'faraday', '~> 2.13'
+gem 'faraday-retry', '~> 2.2'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll', '~> 4.3.4'
@@ -20,7 +23,6 @@ group :jekyll_plugins do
     gem 'jemoji', '~> 0.13.0'
     gem 'unicode_utils', '~> 1.4.0'
     gem 'webrick', '~> 1.8.1'
-    gem 'faraday-retry', '~> 2.2'
 end
 group :other_plugins do
     gem 'css_parser', '~> 1.12.0'
