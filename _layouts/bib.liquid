@@ -151,7 +151,15 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em class="font-italic">{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em class="font-italic">In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}
+        <em class="font-italic">{{ entry.booktitle }}</em>
+        {% if entry.booktitle2 %}
+          <br><em class="font-italic">{{ entry.booktitle2 }}</em>
+        {% endif %}
+        {% if entry.booktitle3 %}
+          <br><em class="font-italic">{{ entry.booktitle3 }}</em>
+        {% endif %}
+      {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em class="font-italic">{{ entry.school }}</em>{% endcapture %}
     {% else %}
@@ -174,7 +182,11 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% if entrytype_text != "" %}
+      {% capture periodical %}{{ entrytype }}{% endcapture %}
+    {% elsif entry.year %}
+      {% capture periodical %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% endif %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
