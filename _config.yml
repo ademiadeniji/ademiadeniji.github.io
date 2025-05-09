@@ -264,23 +264,24 @@ keep_files:
 
 # Plugins
 plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-scholar
   - jekyll-get-json
+  - jekyll-email-protect
+  - jekyll-archives
+  - jekyll-feed
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc
   - jemoji
+  - classifier-reborn
   - unicode_utils
   - webrick
+  - faraday-retry
 
 # Sitemap settings
 defaults:

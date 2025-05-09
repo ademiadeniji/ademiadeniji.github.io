@@ -9,7 +9,6 @@ group :jekyll_plugins do
     gem 'jekyll-feed', '~> 0.17.0'
     gem 'jekyll-get-json', '~> 0.0.1'
     gem 'jekyll-imagemagick', '~> 1.4.0'
-    gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes', '~> 0.0.1'
     gem 'jekyll-minifier', '~> 0.1.10'
     gem 'jekyll-paginate-v2', '~> 3.0.0'
