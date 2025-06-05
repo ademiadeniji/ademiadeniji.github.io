@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2025-05-06"
+date: "2025-05-27"
 inline: true
 related_posts: false
 ---
 
-We submitted two zero-shot human-to-robot learning papers to CoRL! Preprints soon 📝
+We released EgoZero! Teach robots from smart glasses
