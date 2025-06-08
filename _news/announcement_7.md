@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released Feel the Force! Give robots your sense of touch.
+We released our research on tactile robot learning from humans [Feel the Force: Contact-Driven Learning from Humans](https://feel-the-force-ftf.github.io/) 🤲

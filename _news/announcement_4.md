@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released EgoZero! Teach robots from smart glasses
+We released our research on zero-shot human-to-robot learning [EgoZero: Robot Learning from Smart Glasses](https://egozero-robot.github.io) 📝
