@@ -1,6 +1,5 @@
 plugins: ["@shopify/prettier-plugin-liquid"]
 printWidth: 150
-proseWrap: preserve
 trailingComma: "es5"
 
 overrides: [{ "files": "*.liquid", "options": { "parser": "liquid-html" } }]
