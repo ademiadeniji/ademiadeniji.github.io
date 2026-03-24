@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ademi
 last_name: Adeniji
-email: ademi_adeniji@berkeley.edu
+email: ademi@gsi.company
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ademi Adeniji's Personal Website
 footer_text: ""
@@ -109,7 +109,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  If any of my work sounds interesting, please drop me an email at ademi_adeniji@berkeley.edu!
+  If any of my work sounds interesting, please drop me an email at ademi@gsi.company!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
